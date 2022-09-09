@@ -1,7 +1,14 @@
 #include <stdio.h>
-int main ()
-{ 
-	char str [50] = "Programming is like building a multilingual puzzle/n"
-		
-		puts(str);
-	return 0;
+
+/**
+ * main -print the string in the put function
+ *
+ * Description: print 'programming is like building a multilingual puzzle
+ * * Return: 0
+ */
+int main (void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}		
+	
