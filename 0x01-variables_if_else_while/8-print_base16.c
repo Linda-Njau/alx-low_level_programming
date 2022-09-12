@@ -10,6 +10,7 @@ int main(void)
 {
 char c;
 int i;
+
 for (i = 'o'; i <= '9'; i++)
 {
 	putchar(i + '0');
