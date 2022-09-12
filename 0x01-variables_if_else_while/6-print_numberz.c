@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * Main -main function print numbers
- *c Description: printing numbers using putchar
+ * Main - function prints numbers
  *
- * Description: print numbers zero to nine
- * *Return: return 0
+ * Description: prints using putchar
+ * numbers are printed in ascending
+ * Return: 0
  */
 int main(void)
 {
