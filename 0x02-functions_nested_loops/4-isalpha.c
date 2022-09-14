@@ -5,7 +5,7 @@
  *Return: 1 if value is true, zero otherwise.
  */
 int _isalpha(int c)
-i{
+{
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
 return (1);
