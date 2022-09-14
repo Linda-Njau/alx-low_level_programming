@@ -1,16 +1,15 @@
 #include "main.h"
 /**
- * _isalpha - shows if character is letter 
- *@c: is the int that will use as argument
-
- * Return: one if letter is uppercase, zero otherwise.
+ * _isalpha - shows if character i a letter
+ * @c: int is used for arguments
+ *Return: 1 if value is true, zero otherwise.
  */
 int _isalpha(int c)
-{
+i{
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
-return(1);
+return (1);
 }
 else
-return(0);
+return (0);
 }
