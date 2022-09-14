@@ -5,7 +5,7 @@
  *
  * Return: 0
  */
-main(void)
+int main(void)
 {
 char ch;
 ch =  _putchar;
