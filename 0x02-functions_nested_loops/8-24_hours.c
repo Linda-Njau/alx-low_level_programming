@@ -4,7 +4,7 @@
  *n: from 00.00 to 23:59
  * return:0
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 int hours = 0;
 int minutees = 0;
