@@ -6,7 +6,7 @@
  * left in they ear, taking into account leap yrs
  * @month: month in number format
  * @day: day of month
- * @ year: year
+ * @year: year
  * Return: void
  */
 
