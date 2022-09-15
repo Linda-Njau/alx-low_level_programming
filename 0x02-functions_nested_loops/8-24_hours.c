@@ -21,9 +21,10 @@ _putchar(hours_remainder + '0');
 _putchar(':');
 _putchar(minutes / 10 + '0');
 _putchar (mins_remainder + '0');
-_minutes++;
+minutes++;
 _putchar('\n');
 }
 hours++;
 minutes = 0;
+}
 }
