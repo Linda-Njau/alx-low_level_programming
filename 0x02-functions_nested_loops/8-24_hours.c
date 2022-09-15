@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *jack_bauer: print every minute
+ *jack_bauer- print every minute
  *n: from 00.00 to 23:59
  * return:0
  */
@@ -10,7 +10,7 @@ int hours = 0;
 int minutes = 0;
 int hours_remainder;
 int mins_remainder;
-while (hours <=23)
+while (hours <= 23)
 {
 while (minutes <= 59)
 {
