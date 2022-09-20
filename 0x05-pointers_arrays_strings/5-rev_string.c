@@ -14,13 +14,13 @@ void rev_string(char *s)
 	{
 	tmp = *(s + i);
 	*(s + i) = *(s + len - i - 1);
-	*(s + len - i -1) = tmp;
+	*(s + len - i - 1) = tmp;
 	}
 }
 /**
  * _strlen - return the length of a string
  * @s: string
- * return: the length of the string
+ * Return: the length of the string
  */
 
 int _strlen(char *s)
