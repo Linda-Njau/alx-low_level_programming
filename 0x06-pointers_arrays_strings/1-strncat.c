@@ -12,9 +12,9 @@ int len = 0;
 int i = 0;
 
 while (dest[i++])
-	dest_len++;
+	len++;
 for (i = 0; src[i] && i < n; i++)
-dest[dest_len+=] = src[i];
+dest[len++] = src[i];
 
 return (dest);
 }
