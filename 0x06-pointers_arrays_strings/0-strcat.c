@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - appends string overwtiting the terminating null 
+ **_strcat - appends string overwtiting the terminating null
  * @dest: one string
- *@strcat: a second string
- *return: dest
+ *@src: a second string
+ *Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
