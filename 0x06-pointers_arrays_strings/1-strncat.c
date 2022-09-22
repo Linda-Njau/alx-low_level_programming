@@ -3,6 +3,7 @@
  * _strncat - concatenates two strings and uses at most n bytes
  * @src: one string
  * @dest: other string
+ * @n: byte
  * Return: return to dest
  */
 
