@@ -12,7 +12,7 @@ int i = 0;
 
 for (; dest[len] != '\0'; len++);
 
-for (; src[ii] != '\0';)
+for (; src[i] != '\0';)
 dest[len++] = src[i++];
 
 dest[len] = '\0';
