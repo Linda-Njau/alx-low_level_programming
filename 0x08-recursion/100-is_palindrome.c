@@ -13,6 +13,7 @@ int palindromeChecker(char *str, int len, int i)
 	return (palindromeChecker(str, len - 1, i + 1));
 	if (str[i] != str[len])
 	return (0);
+	return (1);
 }
 
 /**
