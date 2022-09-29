@@ -2,7 +2,7 @@
 /**
  * palindromeChecker - checks the string
  * @str: the string to be checked
- * @lwn: the length of the string
+ * @len: the length of the string
  * @i: the incrementor
  * Return: 1 if it's a palindrome, 0 if it's not
  */
