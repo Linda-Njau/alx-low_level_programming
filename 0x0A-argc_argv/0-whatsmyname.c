@@ -3,7 +3,7 @@
  * main - print the title
  * @argc: argument count
  * @argv: string array vector
- * Retrun: nothing
+ * Return: nothing
  */
 
 int main(int argc, char *argv[])
