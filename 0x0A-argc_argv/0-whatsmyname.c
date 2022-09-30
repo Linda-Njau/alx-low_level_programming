@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main - print the title
  * @argc: argument count
  * @argv: string array vector
  * Retrun: nothing
