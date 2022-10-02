@@ -3,6 +3,7 @@
  * main - prints the number of arguments
  * @argc: arguement count
  * @argv: string vector
+ * Return: nothing
  */
 int main(int argc, char *argv[])
 {
