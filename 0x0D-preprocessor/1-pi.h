@@ -1,5 +1,5 @@
-#ifndef PI-H
-#define PI-H
+#ifndef PI_H
+#define PI_H
 /**
  * File name - 1-pi.h
  *Description: macro pi expands to 3.1415265359
