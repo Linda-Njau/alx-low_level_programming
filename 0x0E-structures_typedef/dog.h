@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * file name - dog.h
+ * struct dog - structure defining dogs
  * @name: name of dog
  * @age: age of dog
  * @owner: ownerof dog
