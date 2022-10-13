@@ -6,7 +6,7 @@
  * @str: The string to copy
  * Return: a pointer to the duplicated string
  */
-char *_strdup(char * str)
+char *_strdup(char *str)
 {
 	char *ar;
 	unsigned int i = 0;
@@ -43,7 +43,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new = malloc(sizeof(dog_t));
 	if (new == NULL)
 		return (NULL);
-	
 	ncpy = _strdup(name);
 	if (!ncpy && name)
 	{
