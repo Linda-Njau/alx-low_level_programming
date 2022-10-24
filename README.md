@@ -1,2 +1,1 @@
-Repository contains code for single linked lists.
-
+Repository contains code for single linked lists in C.
