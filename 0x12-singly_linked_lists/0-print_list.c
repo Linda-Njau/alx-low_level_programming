@@ -6,14 +6,12 @@
  */
 size_t print_list(const list_t *h)
 {
-       size_t count = 0;
-       const list_t *nodeptr = NULL;
-	
-	nodeptr = malloc(sizeof(list_t));
+	size_t count = 0;
+	const list_t *nodeptr = NULL;
 
+	nodeptr = malloc(sizeof(list_t));
 	if (nodeptr == NULL)
 		return (0);
-
 	nodeptr = h;
 	while (nodeptr != NULL)
 	{
@@ -24,16 +22,5 @@ size_t print_list(const list_t *h)
 		nodeptr = nodeptr->next;
 		count += 1;
 	}
-	return(count);
+	return (count);
 }
-
-
-
-			
-			
-
-
-		   	
-
-			
-
