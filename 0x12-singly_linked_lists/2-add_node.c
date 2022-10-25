@@ -1,0 +1,26 @@
+#include "list_h"
+/**
+ * *add_node - adds node to link
+ * @head: pointer to first node
+ * @str: string  to be stored in node
+ * Return: address of the new element or NULL
+ */
+list_t *add_node(list_t **head, const char *str)
+{
+	list_t *temp;
+
+	if (head == NULL)
+		return (NULL);
+	temp = malloc(sizeof(list_t));
+
+	if (temp == NULL)
+		return (NULL);
+
+	temp->str = strdup(str);
+	temp->len = strlen(str);
+	temp->next = *head;
+	*head = temp;
+
+	return (temp);
+}
+
