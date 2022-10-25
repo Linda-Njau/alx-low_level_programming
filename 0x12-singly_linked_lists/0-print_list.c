@@ -20,9 +20,9 @@ size_t print_list(const list_t *h)
 		if (nodeptr->str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf("[%u] %s\n", nodeptr->len nodeptr->str);
+			printf("[%u] %s\n", nodeptr->len, nodeptr->str);
 		nodeptr = nodeptr->next;
-		count++;
+		count += 1;
 	}
 	return(count);
 }
