@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * print_list - prints linked list
  * @h: pointer to first node
@@ -6,17 +6,17 @@
  */
 size_t print_list(const list_t *h);
 {
-	int count;
-	const list_t nodeptr = NULL;
+       size_t count = 0;
+       const list_t nodeptr = NULL;
 	
 	nodeptr = malloc(sizeof(list_t));
 	nodeptr = h;
 	while (nodeptr != NULL)
 	{
 		if (nodeptr->str == NULL)
-			printf("[0] (nil)\n");
+			printf("[0] (nil)\n")
 		else
-			printf("[%i] %s\n", nodeptr->len nodeptr->str);
+			printf("[%u] %s\n", nodeptr->len nodeptr->str);
 		nodeptr = nodeptr->next;
 		count++;
 	}
