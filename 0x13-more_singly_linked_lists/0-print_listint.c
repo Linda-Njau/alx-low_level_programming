@@ -11,10 +11,6 @@ size_t print_listint(const listint_t *h)
 
 	ptr = malloc(sizeof(listint_t));
 	ptr = h;
-	if (h == NULL)
-		return (0);
-	if (ptr == NULL)
-		return (0);
 	while (ptr != NULL)
 	{
 		count++;
