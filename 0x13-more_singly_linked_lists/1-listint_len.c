@@ -15,6 +15,7 @@ size_t listint_len(const listint_t *h)
 		return (0);
 	if (nodeptr == NULL)
 		return (0);
+	nodeptr = h;
 	while (nodeptr != NULL)
 	{
 		count++;
