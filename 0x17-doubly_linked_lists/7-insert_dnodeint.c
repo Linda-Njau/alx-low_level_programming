@@ -4,6 +4,7 @@
  * @h: head node
  * @idx: index to change position
  * @n: number to be stored
+ * Return: node or NULL
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
