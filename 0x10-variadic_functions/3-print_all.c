@@ -63,7 +63,7 @@ void print_string(va_list arg)
 	if (str == NULL)
 	{
 		printf("(nil)");
-		(return);
+		return;
 	}
 	printf("%s", str);
 }
@@ -99,7 +99,7 @@ void print_all(const char * const format, ...)
 		{
 			printf("%s", separator);
 			funcs[j].print(args);
-			separator ", ";
+			separator = ", ";
 		}
 
 		i++;
