@@ -7,7 +7,7 @@ RM = rm -f
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean:
-	$(RM)  wildcard *~ $(NAME)
+	$(RM) *~ $(NAME)
 oclean:
 	$(RM) (wildcard *.o)
 
