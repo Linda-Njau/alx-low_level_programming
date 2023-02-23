@@ -10,7 +10,7 @@ clean:
 	$(RM)  wildcard *~ $(NAME)
 oclean:
 	$(RM) (wildcard *.o)
-fclean:
-	clean fclean
-re:
-	fclean all
+
+fclean:	clean fclean
+
+re: fclean all
