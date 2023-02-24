@@ -1,16 +1,22 @@
-#!/usr/bin/python3
-"""
-module to calculate grid perimeter
-"""
+#!usr/bin/python3
+"""perimeter module"""
+
 def island_perimeter(grid):
-    """takes grid parameter and returns perimeter"""
+    """calculates the perimeter of aa grid"""
+    rows = len(grid)
+    cols = len(grid[0])
     perimeter = 0
-    size = 0
-    for i in range(len(grid)):
-        for j in range(len(grid[i])):
-            if grid[i][j]  == 1:
-                size += 1
-            if (grid[i][j] == 1 and grid[i-1][j] == 1 )and (grid[i][j+1] == 1 and grid[i][j-1] == 0):
-                size += 1
-        perimeter= size * 2
-    return perimeter 
+
+    for row in range(rows):
+        for col in range(cols):
+            if grid[row][col] == 1:
+                if col == 0 or grid[row][col - 1] == 0:
+                    perimeter += 1
+                if col == cols - 1 or grid[row][col + 1] == 0:
+                    perimeter += 1
+                if row == 0 or grid[row - 1][col] == 0:
+                    perimeter += 1
+                if row == rows - 1 or grid[row + 1][col] == 0:
+                    perimeter += 1
+    return perimeter
+
