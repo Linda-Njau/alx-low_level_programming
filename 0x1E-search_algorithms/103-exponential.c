@@ -19,7 +19,7 @@ int exponential_search(int *array, size_t size, int value)
 		bound *= 2;
 	}
 	i = bound / 2;
-	j = fmin(bound, size - 1);
+	j = bound < size ? bound : size - 1;
 	printf("Value found between indexes [%lu] and [%lu]\n", i, j);
 	while (i <= j)
 	{
